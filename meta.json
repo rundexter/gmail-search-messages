@@ -4,23 +4,38 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "userId",
+            "title":"The user's email address"
+        },
+        {
+            "id": "includeSpamTrash",
+            "title":"includeSpamTrash"
+        },
+        {
+            "id": "labelIds",
+            "title":"labelIds"
+        },
+        {
+            "id": "maxResults",
+            "title":"maxResults"
+        },
+        {
+            "id": "pageToken",
+            "title":"pageToken"
+        },
+        {
+            "id": "q",
+            "title":"Query"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "messages",
+            "title":"messages"
         }
-      */
     ],
-    "title": "Google Search Messages" /* Required.A display name for the module */
+    /* Required.A display name for the module */
+    "title": "Google Search Messages"
 }
