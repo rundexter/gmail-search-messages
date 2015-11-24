@@ -32,8 +32,40 @@
     //Required. Outputs the module emits.
     "outputs": [
         {
-            "id": "messages",
-            "title":"messages"
+            "id": "id",
+            "title":"ID"
+        },
+        {
+            "id": "threadId",
+            "title":"threadId"
+        },
+        {
+            "id": "labelIds",
+            "title":"labelIds"
+        },
+        {
+            "id": "snippet",
+            "title":"snippet"
+        },
+        {
+            "id": "historyId",
+            "title":"historyId"
+        },
+        {
+            "id": "internalDate",
+            "title":"internalDate"
+        },
+        {
+            "id": "payload",
+            "title":"payload"
+        },
+        {
+            "id": "body",
+            "title":"body"
+        },
+        {
+            "id": "parts",
+            "title":"parts"
         }
     ],
     /* Required.A display name for the module */

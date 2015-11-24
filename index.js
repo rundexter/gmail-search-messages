@@ -50,10 +50,10 @@ module.exports = {
         google.options({ auth: oauth2Client });
         google.gmail('v1').users.messages.list(_.merge({auth: oauth2Client}, step.inputs()), function (err, message) {
 
-            err? this.fail(err) : this.complete({messages: _.map(message.messages, function (data) {
+            err? this.fail(err) : this.complete(_.map(message.messages, function (data) {
 
                 return _.pick(data, pickReqAttr);
-            })});
+            }));
         }.bind(this));
 
     }
