@@ -68,6 +68,7 @@
             "title":"parts"
         }
     ],
+    "icon": "google-plus",
     /* Required.A display name for the module */
     "title": "Google Search Messages"
 }
