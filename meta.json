@@ -38,37 +38,16 @@
         {
             "id": "threadId",
             "title":"threadId"
-        },
-        {
-            "id": "labelIds",
-            "title":"labelIds"
-        },
-        {
-            "id": "snippet",
-            "title":"snippet"
-        },
-        {
-            "id": "historyId",
-            "title":"historyId"
-        },
-        {
-            "id": "internalDate",
-            "title":"internalDate"
-        },
-        {
-            "id": "payload",
-            "title":"payload"
-        },
-        {
-            "id": "body",
-            "title":"body"
-        },
-        {
-            "id": "parts",
-            "title":"parts"
         }
     ],
+    "providers": [{
+        "name": "google",
+        "scopes": [
+            "https://mail.google.com/",
+            "https://www.googleapis.com/auth/gmail.modify",
+            "https://www.googleapis.com/auth/gmail.readonly"
+        ]
+    }],
     "icon": "google-plus",
-    /* Required.A display name for the module */
     "title": "Google Search Messages"
 }

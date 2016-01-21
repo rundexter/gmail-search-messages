@@ -63,9 +63,9 @@ module.exports = _.merge({
              */
             input: {
                 //Replace VAR1 with the name of an expected input, and add more inputs as needed.
-                userId: 'gmail@gmail.com',
-                includeSpamTrash: false,
-                q: 'SQS'
+                userId: 'al.zaretskii@gmail.com',
+                //includeSpamTrash: 'false',
+                //q: 'SQS'
             }
         }
     }
