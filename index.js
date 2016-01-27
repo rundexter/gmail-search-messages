@@ -12,8 +12,11 @@ var pickInputs = {
         'pageToken': 'pageToken'
     },
     pickOutputs = {
-        'id': { key: 'messages', fields: ['id'] },
-        'threadId': { key: 'messages', fields: ['threadId'] }
+        '-': {
+            key: 'messages', fields: ['id', 'threadId']
+        }
+        //'id': { key: 'messages', fields: ['id'] },
+        //'threadId': { key: 'messages', fields: ['threadId'] }
     };
 
 module.exports = {
