@@ -13,7 +13,10 @@ var pickInputs = {
     },
     pickOutputs = {
         '-': {
-            key: 'messages', fields: ['id', 'threadId']
+            key: 'messages', fields: {
+                id: 'id', 
+                threadId: 'threadId'
+            }
         }
         //'id': { key: 'messages', fields: ['id'] },
         //'threadId': { key: 'messages', fields: ['threadId'] }
