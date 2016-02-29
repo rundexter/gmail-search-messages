@@ -7,14 +7,13 @@ var pickInputs = {
         'userId': { key: 'userId', validate: { req: true } },
         'includeSpamTrash': { key: 'includeSpamTrash', type: 'boolean' },
         'q': { key: 'q' },
-        'labelIds': 'labelIds',
         'maxResults': { key: 'maxResults', type: 'integer' },
         'pageToken': 'pageToken'
     },
     pickOutputs = {
         '-': {
             key: 'messages', fields: {
-                id: 'id', 
+                id: 'id',
                 threadId: 'threadId'
             }
         }

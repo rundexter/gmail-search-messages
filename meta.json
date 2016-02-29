@@ -13,10 +13,6 @@
             "title":"includeSpamTrash"
         },
         {
-            "id": "labelIds",
-            "title":"labelIds"
-        },
-        {
             "id": "maxResults",
             "title":"maxResults"
         },
@@ -49,5 +45,5 @@
         ]
     }],
     "icon": "google-plus",
-    "title": "Google Mail Search Messages"
+    "title": "Gmail Search Messages"
 }

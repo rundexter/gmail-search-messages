@@ -1,6 +1,6 @@
 {
-   "name": "google-search-messages",
-   "version": "0.0.1",
+   "name": "gmail-search-messages",
+   "version": "0.0.2",
    "description": "Lists the messages in the user's mailbox matching the specified query",
    "main": "index.js",
    "author": "Run Dexter, Inc",
